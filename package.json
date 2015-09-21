@@ -1,11 +1,12 @@
 {
-  "name": "module-name",
+  "name": "menu-js",
   "version": "0.0.0",
-  "description": "module-description",
+  "description": "A simple menu creator",
   "keywords": [
+    "menu"
   ],
-  "main": "module.js",
-  "repository": "knaman2609/Module",
+  "main": "menu.js",
+  "repository": "knaman2609/menu",
   "dependencies": {
     "jquery": "latest"
   },
