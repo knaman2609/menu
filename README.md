@@ -29,6 +29,22 @@ new Menu({
 });
 ```
 
+##### update menu
+``` javascript
+new Menu({
+    field: $('.menu-wrapper'),
+    list: [
+      '<a href="">Logout</a>',
+    ],
+    menuTrigger: '---',
+    onClick: function($node) {
+      console.log($node);
+    },
+});
+```
+To `update` rerun the menu with new list.
+
+
 ##### generated html
 
 ```html
